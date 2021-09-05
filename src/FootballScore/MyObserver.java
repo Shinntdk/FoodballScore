@@ -1,5 +1,5 @@
-package serverwofacade;
+package FootballScore;
 
-public class MyObserver {
-    
+public interface MyObserver {
+    public void update(Source o);
 }

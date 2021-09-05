@@ -1,5 +1,6 @@
-package serverwofacade;
+package FootballScore;
 
-public class Source {
-    
+public interface Source {
+    public void notifyObservers();
+    public void register(MyObserver observer);
 }
